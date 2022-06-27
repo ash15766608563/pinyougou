@@ -1,0 +1,143 @@
+.sk {
+    position: absolute;
+    left:190px;
+    top:40px;
+    border-left:2px solid #c81523;
+    padding:3px 0 0 14px;
+}
+.sk-list {
+    float: left;
+}
+.sk-icon {
+    float: left;
+}
+.sk-list ul li {
+    float: left;  
+}
+.sk-list ul li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#000;
+}
+.sk-icon ul li {
+    float: left;
+    position: relative;
+}
+.sk-icon ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 14px;
+}
+.sk-icon ul li:last-child::after{
+    position:absolute;
+    top:17px;
+    right:0;
+    content: '\e902';
+    font-family: 'icomoon';
+}
+.nav {
+    overflow: hidden;
+}
+/* 列表模块 */
+.sk-hd {
+    height: 120px;
+}
+.sk-hd img {
+    width: 100%;
+    height: 100%;
+}
+.sk-bd {
+    /* 父元素不能设置height,否则清除浮动失效*/
+    text-align: center;
+}
+.sk-bd ul li {
+    float:left;
+    width:288px;
+    height:458px;
+    margin:10px 10px 10px 0;
+    border:1px solid transparent;
+} 
+.sk-bd ul li .title {
+    font-size:14px;
+    padding:0 10px 14px 0;
+   
+}
+.xianjia {
+    font-size: 20px;
+    color:red;
+}
+.yuanjia {
+    padding-left:5px;
+    font-size: 14px;
+    color:gray;
+    text-decoration: line-through;
+}
+.sk-bd ul li div i,
+.sk-bd ul li div em {
+    color:#f24349;
+}
+.progress {
+    display: inline-block;
+    width: 130px;
+    height: 12px;
+    margin:0 5px;
+    border:1px solid red;
+    border-radius:6px;
+    vertical-align: middle;
+}
+.progress-bar {
+    display: block;
+    width: 87%;
+    height: 10px;
+    background-color:#f24349;
+}
+.buy {
+    margin:20px 0 0;
+    height: 50px;
+    background-color: #f24349;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px;
+}
+.buy a {
+    color:#fff;
+}
+.sk-bd ul li:hover {
+    border:1px solid #f24349;
+}
+.content {
+    margin:0 10px 0;
+}
+
+.page {
+    margin:30px auto;
+    text-align: center;
+}
+.page a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border:1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.page a:first-child,
+.page a:nth-child(8) {
+    width: 83px;
+}
+input {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border:1px solid #ccc;
+    background-color: #f7f7f7;
+    transition: width 0.3s;
+}
+input:hover {
+    width: 72px;
+}
